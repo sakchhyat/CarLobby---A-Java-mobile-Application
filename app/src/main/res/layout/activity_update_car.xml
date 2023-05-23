@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formbg"
+    android:fillViewport="true">
+
+    <TextView
+        android:id="@+id/allcarsback"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="Update Car Detail"
+        android:textColor="#fff"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="160px"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400px"
+        android:layout_marginLeft="55px"
+        android:text="Price: $"
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="250px"
+        android:layout_height="match_parent"
+        android:layout_marginTop="525px"
+        android:layout_marginLeft="55px"
+        android:text="Year sold:"
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320px"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230px"
+            android:hint="Price"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextDateSold"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230px"
+            android:hint="Year Sold"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90px"
+            android:backgroundTint="#21c81a"
+            android:onClick="addCar"
+            android:text="Update Car"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

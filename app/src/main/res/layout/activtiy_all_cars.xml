@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/formbg"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="100px"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="55px"
+        android:fontFamily="@font/poppins"
+        android:text="All Cars"
+        android:textColor="#fff"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@drawable/ic_baseline_notification_important_24"
+        android:layout_marginLeft="900px"
+        android:layout_marginTop="40px"/>
+
+    <TextView
+        android:id="@+id/allcarsback"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <Button
+        android:id="@+id/addCarButton"
+        android:layout_width="1000px"
+        android:layout_height="47dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="94dp"
+        android:text="Add New Car"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#175d0d"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/gotomenu"
+        android:layout_width="1000px"
+        android:layout_height="47dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="94dp"
+        android:text="GOTO Menu"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#EF0606"
+        android:textColor="#fff"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/carListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="1200px"
+        android:layout_marginTop="320px" />
+
+</RelativeLayout>

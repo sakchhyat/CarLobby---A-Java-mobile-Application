@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comp">
+
+    <TextView
+        android:id="@+id/allcarsback"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="40px"
+        android:background="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <TextView
+        android:id="@+id/textViewCompanyName"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="326dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:hint="company name"
+        android:layout_marginLeft="20px"/>
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="400dp"
+        android:gravity="right"
+        android:text="Address:"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="440dp"
+        android:gravity="right"
+        android:text="Cars sold:"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="480dp"
+        android:gravity="right"
+        android:text="Profit (CAD):"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="520dp"
+        android:gravity="right"
+        android:text="Contact No.:"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="560dp"
+        android:gravity="right"
+        android:text="Email:"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textViewCompanyAddress"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="400dp"
+        android:gravity="left"
+        android:hint="address"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCarsSold"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="440dp"
+        android:gravity="left"
+        android:hint="cars sold"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewProfit"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="480dp"
+        android:gravity="left"
+        android:hint="profit"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="520dp"
+        android:gravity="left"
+        android:hint="contact"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="480px"
+        android:layout_marginTop="560dp"
+        android:gravity="left"
+        android:hint="email"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_modify_company"
+        android:layout_width="420px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#D8362A"
+        android:text="Modify"
+        android:textColor="#fff" />
+
+</RelativeLayout>

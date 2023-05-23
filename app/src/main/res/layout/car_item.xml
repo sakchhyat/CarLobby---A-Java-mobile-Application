@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/carMakeAndModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Make and Model"
+        android:textSize="18sp"
+        android:textColor="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modify_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30px"
+            android:layout_weight="1"
+            android:backgroundTint="#FFA500"
+            android:text="Modify"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/view_details_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_weight="1"
+            android:backgroundTint="#1E90FF"
+            android:text="View Details"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</LinearLayout>
