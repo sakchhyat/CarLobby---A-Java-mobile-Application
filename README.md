@@ -22,7 +22,7 @@ Car Lobby is an unbelievably amazing Android application that lets users indulge
 
 ## Installation, Because Why Not
 
-1. Like, who doesn't want to clone the repository? `git clone https://github.com/your-username/CarLobby.git`
+1. Like, who doesn't want to clone the repository? `git clone https://github.com/sakchhyat/CarLobby.git`
 2. Open the project in Android Studio, because you obviously have nothing better to do.
 3. Build and run the app on an Android emulator or a physical device. Brace yourself for the awesomeness!
 
