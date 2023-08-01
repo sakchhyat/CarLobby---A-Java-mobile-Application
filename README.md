@@ -10,7 +10,7 @@ Car Lobby is an unbelievably amazing Android application that lets users indulge
 - [Contributing, If You Really Want To](#contributing-if-you-really-want-to)
 - [License, Because Legal Stuff](#license-because-legal-stuff)
 
-[![Image](car.png)](https://unsplash.com/photos/zf7rb2MF3ok)
+[![Image](car.png)]
 
 ## Mind-Blowing Features
 
